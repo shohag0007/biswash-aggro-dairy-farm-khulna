@@ -8,7 +8,7 @@ const Visitors = () => {
         <div className="card lg:card-side bg-black shadow-xl border rounded-s-full">
             <figure className="">
                 <img 
-                    src="public/visitors.jpg"
+                    src="/visitors.jpg"
                     alt="Album" />
             </figure>
             <div className="card-body mt-20 bg-black  text-white border rounded-s-full">

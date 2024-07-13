@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="card lg:card-side bg-base-100 shadow-xl ">
   <figure>
     <img className="h-[500px] border rounded-s-full"
-      src="public/owner.jpg"
+      src="/owner.jpg"
       alt="Album" />
   </figure>
   <div className="card-body bg-black">
