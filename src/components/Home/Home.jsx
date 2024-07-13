@@ -8,7 +8,7 @@ import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="bg-gradient-to-r from-violet-200 to-fuchsia-300">
             <Nav></Nav>,
             <Banner></Banner>,
             <Team></Team>,

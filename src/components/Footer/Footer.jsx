@@ -2,14 +2,14 @@
 
 const Footer = () => {
     return (
-        <section class=" dark:bg-gray-900 bg-black">
+        <section class=" dark:bg-gray-900 bg-gradient-to-r from-violet-400 to-fuchsia-500">
         <div class="container px-6 py-12 mx-auto">
             <div class="text-center">
-                <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+                <p class="font-medium text-white dark:text-blue-400">Contact us</p>
     
-                <h1 class="mt-2 text-2xl font-semibold text-white">Get in touch</h1>
+                <h1 class="mt-2 text-3xl font-bold text-white">Get in touch</h1>
     
-                <p class="mt-3 text-green-600">Our friendly team is always here to chat.</p>
+                <p class="mt-3 text-white">Our friendly team is always here to communicate with you.</p>
             </div>
     
             <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
@@ -22,7 +22,7 @@ const Footer = () => {
     
                     <h2 class="mt-4 text-lg font-medium text-white">Email</h2>
                     <p class="mt-2 text-white">Our friendly team is here to help.</p>
-                    <p class="mt-2 text-blue-500 dark:text-blue-400">alamgirkabirbulbul@gmaiil.com</p>
+                    <p class="mt-2 text-black dark:text-blue-400">alamgirkabirbulbul@gmaiil.com</p>
                 </div>
     
                 <div class="flex flex-col items-center justify-center text-center">
@@ -35,7 +35,7 @@ const Footer = () => {
                     
                     <h2 class="mt-4 text-lg font-medium  dark:text-white text-white">Office</h2>
                     <p class="mt-2  text-white">Come say hello at our office HQ.</p>
-                    <p class="mt-2 text-blue-500 dark:text-blue-400">Rupsha, Khulna</p>
+                    <p class="mt-2 text-black dark:text-blue-400">Rupsha, Khulna</p>
                 </div>
     
                 <div class="flex flex-col items-center justify-center text-center">
@@ -47,7 +47,7 @@ const Footer = () => {
                     
                     <h2 class="mt-4 text-lg font-medium text-white">Phone Number</h2>
                     <p class="mt-2 text-white">Always Ready To Help You</p>
-                    <p class="mt-2 text-blue-500 dark:text-blue-400">01715-276149</p>
+                    <p class="mt-2 text-black dark:text-blue-400">01715-276149</p>
                 </div>
             </div>
         </div>

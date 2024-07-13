@@ -11,7 +11,7 @@ const Nav = () => {
     
     </>
     return (
-        <div className="navbar  bg-black text-white">
+        <div className="navbar  h-14 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white">
           
   <div className="navbar-start">
     <div className="dropdown text-black">
@@ -50,7 +50,7 @@ const Nav = () => {
   </div>
  
     
-   <img className="w-[100px]" src="logo1.png"/>
+   <img className="w-[50px] rounded-full object-cover" src="logo1.png"/>
   
  
  
